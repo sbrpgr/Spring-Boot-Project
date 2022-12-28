@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author dw
- *
- */
-module hello {
-}
