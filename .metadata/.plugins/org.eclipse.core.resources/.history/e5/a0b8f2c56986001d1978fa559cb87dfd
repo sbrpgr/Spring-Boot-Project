@@ -1,0 +1,14 @@
+package com.cos.blog.test;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class BlogControllerTest {
+	
+	@RequestMapping("/test/hello")
+    public @ResponseBody String root_test() throws Exception{
+        return "Hello World";
+    
+}}
